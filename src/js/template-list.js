@@ -1,6 +1,6 @@
 import itemsTemplate from '../templates/menu.hbs';
 import itemsMenu from '../menu.json';
-import '../styles.css';
+import '../sass/styles.scss';
 // console.log(itemsMenu);
 // console.log(itemsTemplate);
 
