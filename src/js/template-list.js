@@ -8,4 +8,6 @@ const markup = itemsTemplate(itemsMenu);
 // console.log(markup);
 const galleryRef = document.querySelector('.js-menu');
 // console.log(galleryRef);
-galleryRef.innerHTML = markup;
+galleryRef.insertAdjacentHTML('afterbegin', markup);
+// galleryRef.innerHTML = markup;
+// console.dir(galleryRef);
